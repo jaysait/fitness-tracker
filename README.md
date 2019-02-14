@@ -6,7 +6,7 @@ Hosted on Firebase.
 
 ## Demo
 
-https://ng-fitness-tracker-ca8ff.firebaseapp.com/training
+https://ng-fitness-tracker-ca8ff.firebaseapp.com
 
 
 - Angular 6
