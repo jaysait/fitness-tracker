@@ -1,26 +1,13 @@
 # Fitness Tracker
 
-Simple Angular (frontend) and Node/Express/Mongo (backend) project to create/authorize/autheticate users (bcrypt & jwt) allowing them to CRUD simple posts (title, picture, description).
+Simple Angular project to create/authorize/autheticate users (Angular FireAuth) allowing them to start pre-existing exercisies and view past ones.
 
-Backend hosted on Heroku, frontend on Firebase, Cloud Mongo for database collections.
+Hosted on Firebase.
 
 ## Demo
 
 https://ng-fitness-tracker-ca8ff.firebaseapp.com/training
 
-## Technologies
-
-### Backend
-
-Node / Express
-
-Controllers for RESTful api for posts and users/auth
-
-Middleware for auth with tokens and multer for file upload
-
-MongoDB
-
-### Frontend
 
 - Angular 6
 
@@ -32,12 +19,10 @@ MongoDB
 
 - Modules
 
-- Interceptors (Error & Auth)
-
-- Subject/Subscription (rxjs) for authorization status and is loading notifications
+- ngrx (training & auth reducer/actions)
 
 ## Todos
 
-Extend functionality like most other social media type sites (comment on posts, like, etc)
+Extend functionality to allow for creation of additional exercises (including short video examples) and ability to pick multiple exercises for a complete workout with scheduled breaks.
 
 Write more test
