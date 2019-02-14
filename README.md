@@ -1,27 +1,43 @@
-# FitnessTracker
+# Fitness Tracker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+Simple Angular (frontend) and Node/Express/Mongo (backend) project to create/authorize/autheticate users (bcrypt & jwt) allowing them to CRUD simple posts (title, picture, description).
 
-## Development server
+Backend hosted on Heroku, frontend on Firebase, Cloud Mongo for database collections.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Demo
 
-## Code scaffolding
+https://ng-fitness-tracker-ca8ff.firebaseapp.com/training
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies
 
-## Build
+### Backend
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Node / Express
 
-## Running unit tests
+Controllers for RESTful api for posts and users/auth
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Middleware for auth with tokens and multer for file upload
 
-## Running end-to-end tests
+MongoDB
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Frontend
 
-## Further help
+- Angular 6
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Angular Material for responsive web design
+
+- Services
+
+- Routing/Guards
+
+- Modules
+
+- Interceptors (Error & Auth)
+
+- Subject/Subscription (rxjs) for authorization status and is loading notifications
+
+## Todos
+
+Extend functionality like most other social media type sites (comment on posts, like, etc)
+
+Write more test
