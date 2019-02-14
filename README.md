@@ -1,6 +1,6 @@
 # Fitness Tracker
 
-Simple Angular project to create/authorize/autheticate users (Angular FireAuth) allowing them to start pre-existing exercisies and view past ones.
+Simple Angular project to create/authorize/autheticate users (Angular FireAuth) allowing them to start pre-existing exercisies and view past ones for educational experience.
 
 Hosted on Firebase.
 
